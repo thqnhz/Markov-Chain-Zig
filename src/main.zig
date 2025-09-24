@@ -1,7 +1,7 @@
 const std = @import("std");
 
 pub fn main() !void {
-    gamblersRuin(100, 0);
+    gamblersRuin(100, 1);
 }
 
 fn gamblersRuin(money: u8, attempts: u16) void {
