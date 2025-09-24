@@ -4,7 +4,7 @@ pub fn main() !void {
     gamblersRuin(100, 0);
 }
 
-fn gamblersRuin(money: i16, attempts: i16) void {
+fn gamblersRuin(money: u8, attempts: u16) void {
     if (money == 0) {
         std.debug.print(
             "No more money, you lost it all after {d} attempts! RIP BOZO!\n", .{attempts}
